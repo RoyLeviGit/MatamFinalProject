@@ -1,0 +1,119 @@
+Error: Unrecognized command '// Vertex'
+Error: Illegal vertex 'x1[];y'
+Error: Illegal vertex '[x1]]x2['
+Error: Unrecognized command '// DirectedGraph'
+Error: Illegal edge <a, b>. Expecting source vertex to exist
+Error: Illegal edge <a, b>. Expecting destination vertex to exist
+Error: Illegal edge <a, a>. Self loop edges are not allowed
+Error: Illegal vertex a. Vertex name must be unique
+Error: Illegal edge <a, b>. Parallel edges are not allowed
+Error: Unrecognized command '// Calculator'
+Error: Undefined variable 'gUndefinedVariable'
+Error: Undefined variable 'gUndefinedVariable'
+Error: Unrecognized command '// Variable Command'
+Error: Illegal variable name '1g'
+Error: Illegal variable name 'quit'
+Error: Illegal variable name 'g&'
+Error: Unrecognized command '// - Print'
+Error: Incorrect usage. Usage: print(expresion)
+Error: Incorrect usage. Usage: print(expresion)
+Error: Incorrect usage. Usage: print(expresion)
+Error: Unrecognized command '// - Delete'
+Error: Incorrect usage. Usage: delete(variable)
+Error: Incorrect usage. Usage: delete(variable)
+Error: Incorrect usage. Usage: delete(variable)
+Error: Unrecognized command '// - Save'
+Error: Incorrect usage. Usage: save(expresion, filename)
+Error: Incorrect usage. Usage: save(expresion, filename)
+Error: Incorrect usage. Usage: save(expresion, filename)
+Error: Incorrect usage. Usage: save(expresion, filename)
+Error: Undefined variable 'g,'
+Error: Undefined variable 'g,g'
+Error: Illegal file name 'g ( g ) g.gc'
+Error: Illegal file name 'g(g.gc'
+Error: Illegal file name 'g)g.gc'
+x
+$
+Error: Unrecognized command '// Expresion'
+Error: Unrecognized command '// - Parenthesis'
+Error: Illegal syntax '()g'. Expecting: valid usage of parenthesis
+Error: Illegal syntax 'g()'. Expecting: valid usage of parenthesis
+Error: Illegal syntax '(g'. Expecting: valid usage of parenthesis
+Error: Illegal syntax 'g)'. Expecting: valid usage of parenthesis
+Error: Illegal syntax '()g'. Expecting: valid usage of parenthesis
+Error: Illegal syntax 'g()'. Expecting: valid usage of parenthesis
+Error: Illegal syntax '(g'. Expecting: valid usage of parenthesis
+Error: Illegal syntax 'g)'. Expecting: valid usage of parenthesis
+Error: Illegal syntax '((g)'. Expecting: valid usage of parenthesis
+Error: Illegal syntax '(g))'. Expecting: valid usage of parenthesis
+Error: Unrecognized command '// - Empty'
+Error: Empty expresion
+Error: Empty expresion
+Error: Empty expresion
+Error: Unrecognized command '// - Operators'
+[delete;load]
+[delete;save]
+[print;load]
+[print;save]
+$
+[print;save] [delete;load]
+[delete;load]
+[delete;save]
+[print;load]
+[print;save]
+$
+[delete;load] [delete;save]
+[delete;load] [print;load]
+[delete;load] [print;save]
+[delete;save] [delete;load]
+[delete;save] [print;load]
+[delete;save] [print;save]
+[print;load] [delete;load]
+[print;load] [delete;save]
+[print;load] [print;save]
+[print;save] [delete;save]
+[print;save] [print;load]
+Error: Illegal syntax '(g)(g)+'. Expecting: binary operator between variables
+Error: Illegal syntax '^(g)(g)'. Expecting: binary operator between variables
+Error: Illegal syntax '(g)-(g)(g)*(*(g))'. Expecting: binary operator between variables
+Error: Illegal syntax '(g) (g)  +  +  (g)'. Expecting: binary operator between variables
+Error: Illegal usage of operator '!'
+Error: Illegal usage of operator '-'
+Error: Illegal syntax '*g'. Expecting: binary operator between variables
+Error: Illegal usage of operator '!'
+Error: Illegal usage of operator '!'
+Error: Illegal syntax '(g)(g)'. Expecting: binary operator between variables
+Error: Illegal syntax '(g)!(g)'. Expecting: binary operator between variables
+Error: Illegal variable name '1'
+g
+Error: Unrecognized command '// - Load'
+[delete;load]
+[delete;save]
+[print;load]
+[print;save]
+x
+y
+$
+[print;save] [delete;load]
+x y
+y x
+$
+x
+$
+Error: Undefined variable 'load'
+Error: Illegal syntax 'load g.gc)'. Expecting: valid usage of parenthesis
+Error: Incorrect usage. Usage: load(filename)
+Error: Illegal file name 'g(g'
+Error: Illegal edge <a, b>. Parallel edges are not allowed
+Error: Illegal vertex a. Vertex name must be unique
+Error: Illegal edge <a, b>. Expecting source vertex to exist
+Error: Illegal edge <a, a>. Self loop edges are not allowed
+Error: Illegal vertex '[x1]]x2['
+Error: Illegal vertex ''
+Error: File 'gDoesNotExist.gc' does not exist
+Error: Unrecognized command '// Graph Literal'
+Error: Illegal syntax '{'. Expecting: {v1, v2, ... |<v1,v2>, <v2,v1>, ... }
+Error: Illegal syntax '}'. Expecting: binary operator between variables
+Error: Illegal syntax 'a,b'. Expecting: <v1, v2>
+Error: Illegal syntax '<a,b,c>'. Expecting: <v1, v2>
+Error: Illegal operator '&'

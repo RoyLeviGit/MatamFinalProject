@@ -1,0 +1,99 @@
+
+// Vertex
+g={x1[];y}
+g={[x1]]x2[}
+// DirectedGraph
+g={b|<a,b>}
+g={a|<a,b>}
+g={a|<a,a>}
+g={a,a}
+g={a,b|<a,b>,<a,b>}
+who
+// Calculator
+print(gUndefinedVariable)
+delete(gUndefinedVariable)
+// Variable Command
+1g ={x}
+quit ={x}
+g& ={x}
+who
+// - Print
+print {}
+print({}
+print {})
+// - Delete
+delete {}
+delete({}
+delete {})
+// - Save
+g={x}
+save(g,g.gc)
+save g
+save(g
+save g)
+save(g)
+save(g,,g.gc)
+save(g,g,g)
+save(g, g ( g ) g.gc  )
+save(g,g(g.gc)
+save(g,g)g.gc)
+  save  (  {  print  ,  delete  |  <  print  ,  delete  >  }  *  {  save  ,  load  |  <  save  ,  load  >  }  ,  g g.gc  )
+  save  (  {  x  }  ,  x}.gc  )
+  print  (  load  (  x}.gc  )  )
+// Expresion
+// - Parenthesis
+print(()g)
+print(g())
+print((g)
+print(g))
+  g  =  (  g  )
+gParenthesis=()g
+gParenthesis=g()
+gParenthesis=(g
+gParenthesis=g)
+gParenthesis=((g)
+gParenthesis=(g))
+// - Empty
+gEmpty =
+print()
+save(,gEmpty.gc)
+// - Operators
+  print  (  (  (  (  (  (  load  (  g g.gc  )  )  )  )  )  )  )
+  print  (  !  !!!!  (  !  (  !  (  (  (  !  !load  (  g g.gc  )  )  )  )  )  )  )
+gBadOperators=(g)(g)+
+gBadOperators=^(g)(g)
+gBadOperators=(g)-(g)(g)*(*(g))
+gBadOperators=(g) (g)  +  +  (g)
+gBadOperators=g! - g
+gBadOperators=g-
+gBadOperators=*g
+gBadExclamation=g!+g
+gBadExclamation=g!
+gMoreOperators=(g)(g)
+gBadOperators=(g)!(g)
+gBadVariableName=1
+who
+// - Load
+  loadG  =  !  {  x  ,  y  |  }
+  print  (  (  loadG  +  (  load  (  g g.gc  )  )  )  )
+  Gload  =  !  {  x  ,  y  |  }
+  print  (  (  Gload  ^  (  load  (  g g.gc  )  )  )  )
+save({a,b|<a,b>}, *g.gc)
+  print  (  g  -  load  (  *g.gc  )  )
+g=load
+g=load g.gc)
+g=(load g.gc)
+print(load(g(g).gc))
+print(load(gExtraEdge.gc))
+print(load(gExtraVertex.gc))
+print(load(gNoVertices.gc))
+print(load(gSelfLoop.gc))
+print(load(gIllegalVertexName.gc))
+print(load(gEOF.gc))
+print(load(gDoesNotExist.gc))
+// Graph Literal
+g={
+g=}
+g={a,b|a,b}
+g={a,b,c|<a,b,c>}
+g=g & g
